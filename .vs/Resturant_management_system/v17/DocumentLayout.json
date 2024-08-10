@@ -1,18 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Amila Devin\\source\\repos\\Resturant_management_system\\",
+  "WorkspaceRootPath": "D:\\Bimalka\\RESTUARANT_MANAGEMENT_SYSTEM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AFA7B06E-4969-415F-8487-B80957A26DB9}|Resturant_management_system\\Resturant_management_system.csproj|c:\\users\\amila devin\\source\\repos\\resturant_management_system\\resturant_management_system\\utils\\databaseconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFA7B06E-4969-415F-8487-B80957A26DB9}|Resturant_management_system\\Resturant_management_system.csproj|solutionrelative:resturant_management_system\\utils\\databaseconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AFA7B06E-4969-415F-8487-B80957A26DB9}|Resturant_management_system\\Resturant_management_system.csproj|d:\\bimalka\\restuarant_management_system\\resturant_management_system\\views\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFA7B06E-4969-415F-8487-B80957A26DB9}|Resturant_management_system\\Resturant_management_system.csproj|solutionrelative:resturant_management_system\\views\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AFA7B06E-4969-415F-8487-B80957A26DB9}|Resturant_management_system\\Resturant_management_system.csproj|c:\\users\\amila devin\\source\\repos\\resturant_management_system\\resturant_management_system\\models\\employeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AFA7B06E-4969-415F-8487-B80957A26DB9}|Resturant_management_system\\Resturant_management_system.csproj|d:\\bimalka\\restuarant_management_system\\resturant_management_system\\views\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AFA7B06E-4969-415F-8487-B80957A26DB9}|Resturant_management_system\\Resturant_management_system.csproj|solutionrelative:resturant_management_system\\views\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFA7B06E-4969-415F-8487-B80957A26DB9}|Resturant_management_system\\Resturant_management_system.csproj|d:\\bimalka\\restuarant_management_system\\resturant_management_system\\views\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFA7B06E-4969-415F-8487-B80957A26DB9}|Resturant_management_system\\Resturant_management_system.csproj|solutionrelative:resturant_management_system\\views\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFA7B06E-4969-415F-8487-B80957A26DB9}|Resturant_management_system\\Resturant_management_system.csproj|d:\\bimalka\\restuarant_management_system\\resturant_management_system\\views\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AFA7B06E-4969-415F-8487-B80957A26DB9}|Resturant_management_system\\Resturant_management_system.csproj|solutionrelative:resturant_management_system\\views\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFA7B06E-4969-415F-8487-B80957A26DB9}|Resturant_management_system\\Resturant_management_system.csproj|d:\\bimalka\\restuarant_management_system\\resturant_management_system\\views\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AFA7B06E-4969-415F-8487-B80957A26DB9}|Resturant_management_system\\Resturant_management_system.csproj|solutionrelative:resturant_management_system\\views\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFA7B06E-4969-415F-8487-B80957A26DB9}|Resturant_management_system\\Resturant_management_system.csproj|d:\\bimalka\\restuarant_management_system\\resturant_management_system\\views\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AFA7B06E-4969-415F-8487-B80957A26DB9}|Resturant_management_system\\Resturant_management_system.csproj|solutionrelative:resturant_management_system\\views\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFA7B06E-4969-415F-8487-B80957A26DB9}|Resturant_management_system\\Resturant_management_system.csproj|D:\\Bimalka\\RESTUARANT_MANAGEMENT_SYSTEM\\resturant_management_system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFA7B06E-4969-415F-8487-B80957A26DB9}|Resturant_management_system\\Resturant_management_system.csproj|solutionrelative:resturant_management_system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFA7B06E-4969-415F-8487-B80957A26DB9}|Resturant_management_system\\Resturant_management_system.csproj|D:\\Bimalka\\RESTUARANT_MANAGEMENT_SYSTEM\\resturant_management_system\\models\\employeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AFA7B06E-4969-415F-8487-B80957A26DB9}|Resturant_management_system\\Resturant_management_system.csproj|solutionrelative:resturant_management_system\\models\\employeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AFA7B06E-4969-415F-8487-B80957A26DB9}|Resturant_management_system\\Resturant_management_system.csproj|c:\\users\\amila devin\\source\\repos\\resturant_management_system\\resturant_management_system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFA7B06E-4969-415F-8487-B80957A26DB9}|Resturant_management_system\\Resturant_management_system.csproj|solutionrelative:resturant_management_system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AFA7B06E-4969-415F-8487-B80957A26DB9}|Resturant_management_system\\Resturant_management_system.csproj|d:\\bimalka\\restuarant_management_system\\resturant_management_system\\views\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFA7B06E-4969-415F-8487-B80957A26DB9}|Resturant_management_system\\Resturant_management_system.csproj|solutionrelative:resturant_management_system\\views\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFA7B06E-4969-415F-8487-B80957A26DB9}|Resturant_management_system\\Resturant_management_system.csproj|d:\\bimalka\\restuarant_management_system\\resturant_management_system\\properties\\resources.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AFA7B06E-4969-415F-8487-B80957A26DB9}|Resturant_management_system\\Resturant_management_system.csproj|solutionrelative:resturant_management_system\\properties\\resources.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFA7B06E-4969-415F-8487-B80957A26DB9}|Resturant_management_system\\Resturant_management_system.csproj|d:\\bimalka\\restuarant_management_system\\resturant_management_system\\views\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFA7B06E-4969-415F-8487-B80957A26DB9}|Resturant_management_system\\Resturant_management_system.csproj|solutionrelative:resturant_management_system\\views\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFA7B06E-4969-415F-8487-B80957A26DB9}|Resturant_management_system\\Resturant_management_system.csproj|D:\\Bimalka\\RESTUARANT_MANAGEMENT_SYSTEM\\resturant_management_system\\utils\\databaseconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFA7B06E-4969-415F-8487-B80957A26DB9}|Resturant_management_system\\Resturant_management_system.csproj|solutionrelative:resturant_management_system\\utils\\databaseconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,10 +63,123 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Home.cs",
+              "DocumentMoniker": "D:\\Bimalka\\RESTUARANT_MANAGEMENT_SYSTEM\\Resturant_management_system\\Views\\Home.cs",
+              "RelativeDocumentMoniker": "Resturant_management_system\\Views\\Home.cs",
+              "ToolTip": "D:\\Bimalka\\RESTUARANT_MANAGEMENT_SYSTEM\\Resturant_management_system\\Views\\Home.cs*",
+              "RelativeToolTip": "Resturant_management_system\\Views\\Home.cs*",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAswB0AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T05:58:04.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Home.cs [Design]",
+              "DocumentMoniker": "D:\\Bimalka\\RESTUARANT_MANAGEMENT_SYSTEM\\Resturant_management_system\\Views\\Home.cs",
+              "RelativeDocumentMoniker": "Resturant_management_system\\Views\\Home.cs",
+              "ToolTip": "D:\\Bimalka\\RESTUARANT_MANAGEMENT_SYSTEM\\Resturant_management_system\\Views\\Home.cs [Design]*",
+              "RelativeToolTip": "Resturant_management_system\\Views\\Home.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T05:48:39.167Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Menu.cs [Design]",
+              "DocumentMoniker": "D:\\Bimalka\\RESTUARANT_MANAGEMENT_SYSTEM\\Resturant_management_system\\Views\\Menu.cs",
+              "RelativeDocumentMoniker": "Resturant_management_system\\Views\\Menu.cs",
+              "ToolTip": "D:\\Bimalka\\RESTUARANT_MANAGEMENT_SYSTEM\\Resturant_management_system\\Views\\Menu.cs [Design]",
+              "RelativeToolTip": "Resturant_management_system\\Views\\Menu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T05:45:10.894Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\Bimalka\\RESTUARANT_MANAGEMENT_SYSTEM\\Resturant_management_system\\Views\\Employee.cs",
+              "RelativeDocumentMoniker": "Resturant_management_system\\Views\\Employee.cs",
+              "ToolTip": "D:\\Bimalka\\RESTUARANT_MANAGEMENT_SYSTEM\\Resturant_management_system\\Views\\Employee.cs",
+              "RelativeToolTip": "Resturant_management_system\\Views\\Employee.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAADwvxoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T05:01:41.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Employee.cs [Design]",
+              "DocumentMoniker": "D:\\Bimalka\\RESTUARANT_MANAGEMENT_SYSTEM\\Resturant_management_system\\Views\\Employee.cs",
+              "RelativeDocumentMoniker": "Resturant_management_system\\Views\\Employee.cs",
+              "ToolTip": "D:\\Bimalka\\RESTUARANT_MANAGEMENT_SYSTEM\\Resturant_management_system\\Views\\Employee.cs [Design]",
+              "RelativeToolTip": "Resturant_management_system\\Views\\Employee.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T04:48:37.602Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\Bimalka\\RESTUARANT_MANAGEMENT_SYSTEM\\Resturant_management_system\\Views\\Login.cs",
+              "RelativeDocumentMoniker": "Resturant_management_system\\Views\\Login.cs",
+              "ToolTip": "D:\\Bimalka\\RESTUARANT_MANAGEMENT_SYSTEM\\Resturant_management_system\\Views\\Login.cs",
+              "RelativeToolTip": "Resturant_management_system\\Views\\Login.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAADwvyMAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T18:40:53.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.Designer.cs",
+              "DocumentMoniker": "D:\\Bimalka\\RESTUARANT_MANAGEMENT_SYSTEM\\Resturant_management_system\\Views\\Login.Designer.cs",
+              "RelativeDocumentMoniker": "Resturant_management_system\\Views\\Login.Designer.cs",
+              "ToolTip": "D:\\Bimalka\\RESTUARANT_MANAGEMENT_SYSTEM\\Resturant_management_system\\Views\\Login.Designer.cs",
+              "RelativeToolTip": "Resturant_management_system\\Views\\Login.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T18:25:08.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "D:\\Bimalka\\RESTUARANT_MANAGEMENT_SYSTEM\\Resturant_management_system\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "Resturant_management_system\\Properties\\Resources.resx",
+              "ToolTip": "D:\\Bimalka\\RESTUARANT_MANAGEMENT_SYSTEM\\Resturant_management_system\\Properties\\Resources.resx",
+              "RelativeToolTip": "Resturant_management_system\\Properties\\Resources.resx",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwv34AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-08-09T18:24:35.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "D:\\Bimalka\\RESTUARANT_MANAGEMENT_SYSTEM\\Resturant_management_system\\Views\\Login.cs",
+              "RelativeDocumentMoniker": "Resturant_management_system\\Views\\Login.cs",
+              "ToolTip": "D:\\Bimalka\\RESTUARANT_MANAGEMENT_SYSTEM\\Resturant_management_system\\Views\\Login.cs [Design]",
+              "RelativeToolTip": "Resturant_management_system\\Views\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T18:21:52.375Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "DatabaseConfig.cs",
-              "DocumentMoniker": "C:\\Users\\Amila Devin\\source\\repos\\Resturant_management_system\\Resturant_management_system\\Utils\\DatabaseConfig.cs",
+              "DocumentMoniker": "D:\\Bimalka\\RESTUARANT_MANAGEMENT_SYSTEM\\Resturant_management_system\\Utils\\DatabaseConfig.cs",
               "RelativeDocumentMoniker": "Resturant_management_system\\Utils\\DatabaseConfig.cs",
-              "ToolTip": "C:\\Users\\Amila Devin\\source\\repos\\Resturant_management_system\\Resturant_management_system\\Utils\\DatabaseConfig.cs",
+              "ToolTip": "D:\\Bimalka\\RESTUARANT_MANAGEMENT_SYSTEM\\Resturant_management_system\\Utils\\DatabaseConfig.cs",
               "RelativeToolTip": "Resturant_management_system\\Utils\\DatabaseConfig.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -39,26 +188,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "EmployeeModel.cs",
-              "DocumentMoniker": "C:\\Users\\Amila Devin\\source\\repos\\Resturant_management_system\\Resturant_management_system\\Models\\EmployeeModel.cs",
+              "DocumentMoniker": "D:\\Bimalka\\RESTUARANT_MANAGEMENT_SYSTEM\\Resturant_management_system\\Models\\EmployeeModel.cs",
               "RelativeDocumentMoniker": "Resturant_management_system\\Models\\EmployeeModel.cs",
-              "ToolTip": "C:\\Users\\Amila Devin\\source\\repos\\Resturant_management_system\\Resturant_management_system\\Models\\EmployeeModel.cs",
+              "ToolTip": "D:\\Bimalka\\RESTUARANT_MANAGEMENT_SYSTEM\\Resturant_management_system\\Models\\EmployeeModel.cs",
               "RelativeToolTip": "Resturant_management_system\\Models\\EmployeeModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-09T17:42:35.808Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Amila Devin\\source\\repos\\Resturant_management_system\\Resturant_management_system\\Program.cs",
+              "DocumentMoniker": "D:\\Bimalka\\RESTUARANT_MANAGEMENT_SYSTEM\\Resturant_management_system\\Program.cs",
               "RelativeDocumentMoniker": "Resturant_management_system\\Program.cs",
-              "ToolTip": "C:\\Users\\Amila Devin\\source\\repos\\Resturant_management_system\\Resturant_management_system\\Program.cs",
+              "ToolTip": "D:\\Bimalka\\RESTUARANT_MANAGEMENT_SYSTEM\\Resturant_management_system\\Program.cs",
               "RelativeToolTip": "Resturant_management_system\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAVAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-09T17:40:02.784Z",
               "EditorCaption": ""
