@@ -71,8 +71,7 @@ namespace Resturant_management_system.Models
                 con.Open();
                 string query = "UPDATE employees SET EmployeeNo = @empNo, FirstName = @fName, LastName = @lName, DateOfBirth = @dob, Gender = @gender, Address = @address, Email = @email, MobilePhoneNo = @mNo, HomePhoneNo = @hNo, Role = @role WHERE Id = @id";
                 using (MySqlCommand cmd = new MySqlCommand(query, con))
-                {
-                    
+                {  
                     cmd.Parameters.AddWithValue("@id", Id);
                     cmd.Parameters.AddWithValue("@empNo", EmployeeNo);
                     cmd.Parameters.AddWithValue("@fName", FirstName);
@@ -84,7 +83,6 @@ namespace Resturant_management_system.Models
                     cmd.Parameters.AddWithValue("@mNo", MobilePhoneNo);
                     cmd.Parameters.AddWithValue("@hNo", HomePhoneNo);
                     cmd.Parameters.AddWithValue("@role", Role);
-
                     cmd.ExecuteNonQuery();
                 }
                 con.Close();
