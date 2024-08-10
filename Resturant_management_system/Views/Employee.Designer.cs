@@ -30,44 +30,44 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Employee));
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.EmployeeGroupBox = new System.Windows.Forms.GroupBox();
-            this.updatebutton = new System.Windows.Forms.Button();
-            this.insertButton = new System.Windows.Forms.Button();
-            this.empNotextBox = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.empfirstNameTextBox = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.empLastNameTextBox = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.empDOBPicker = new System.Windows.Forms.DateTimePicker();
-            this.label6 = new System.Windows.Forms.Label();
-            this.maleRadioButton = new System.Windows.Forms.RadioButton();
-            this.femaleRadioButton = new System.Windows.Forms.RadioButton();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label14 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.homePhoneTextBox = new System.Windows.Forms.TextBox();
+            this.mobilePhoneTextBox = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.empEmailTextBox = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.empAddressTextBox = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.mobilePhoneTextBox = new System.Windows.Forms.TextBox();
-            this.homePhoneTextBox = new System.Windows.Forms.TextBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.deleteButton = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.femaleRadioButton = new System.Windows.Forms.RadioButton();
+            this.maleRadioButton = new System.Windows.Forms.RadioButton();
+            this.label6 = new System.Windows.Forms.Label();
+            this.empDOBPicker = new System.Windows.Forms.DateTimePicker();
+            this.label5 = new System.Windows.Forms.Label();
+            this.empLastNameTextBox = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.empfirstNameTextBox = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.updatebutton = new System.Windows.Forms.Button();
+            this.empNotextBox = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.insertButton = new System.Windows.Forms.Button();
             this.resetButton = new System.Windows.Forms.Button();
             this.exitButton = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.EmployeeGroupBox.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -81,24 +81,17 @@
             this.label1.Text = "Emplyee Management";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(569, 53);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(77, 76);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
             // dataGridView1
             // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(417, 183);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(370, 451);
             this.dataGridView1.TabIndex = 4;
+            this.dataGridView1.Tag = "gender";
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // EmployeeGroupBox
             // 
@@ -118,146 +111,39 @@
             this.EmployeeGroupBox.TabStop = false;
             this.EmployeeGroupBox.Text = "Employee";
             // 
-            // updatebutton
+            // groupBox3
             // 
-            this.updatebutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.updatebutton.Location = new System.Drawing.Point(132, 646);
-            this.updatebutton.Name = "updatebutton";
-            this.updatebutton.Size = new System.Drawing.Size(116, 29);
-            this.updatebutton.TabIndex = 5;
-            this.updatebutton.Text = "Update";
-            this.updatebutton.UseVisualStyleBackColor = true;
+            this.groupBox3.Controls.Add(this.comboBox1);
+            this.groupBox3.Controls.Add(this.label14);
+            this.groupBox3.Location = new System.Drawing.Point(21, 537);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(352, 76);
+            this.groupBox3.TabIndex = 15;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Professional Details";
             // 
-            // insertButton
+            // comboBox1
             // 
-            this.insertButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.insertButton.Location = new System.Drawing.Point(10, 646);
-            this.insertButton.Name = "insertButton";
-            this.insertButton.Size = new System.Drawing.Size(116, 29);
-            this.insertButton.TabIndex = 4;
-            this.insertButton.Text = "Insert";
-            this.insertButton.UseVisualStyleBackColor = true;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Supervisor",
+            "Cashier ",
+            "Chef",
+            "Other"});
+            this.comboBox1.Location = new System.Drawing.Point(152, 34);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(181, 23);
+            this.comboBox1.TabIndex = 15;
             // 
-            // empNotextBox
+            // label14
             // 
-            this.empNotextBox.Location = new System.Drawing.Point(173, 31);
-            this.empNotextBox.Name = "empNotextBox";
-            this.empNotextBox.Size = new System.Drawing.Size(184, 21);
-            this.empNotextBox.TabIndex = 2;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(43, 32);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(103, 20);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Employee No";
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.femaleRadioButton);
-            this.groupBox1.Controls.Add(this.maleRadioButton);
-            this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.empDOBPicker);
-            this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.empLastNameTextBox);
-            this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.empfirstNameTextBox);
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Location = new System.Drawing.Point(21, 70);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(352, 217);
-            this.groupBox1.TabIndex = 3;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Basic Details";
-            // 
-            // empfirstNameTextBox
-            // 
-            this.empfirstNameTextBox.Location = new System.Drawing.Point(152, 36);
-            this.empfirstNameTextBox.Name = "empfirstNameTextBox";
-            this.empfirstNameTextBox.Size = new System.Drawing.Size(184, 21);
-            this.empfirstNameTextBox.TabIndex = 5;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(19, 37);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(86, 20);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "First Name";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
-            // 
-            // empLastNameTextBox
-            // 
-            this.empLastNameTextBox.Location = new System.Drawing.Point(149, 80);
-            this.empLastNameTextBox.Name = "empLastNameTextBox";
-            this.empLastNameTextBox.Size = new System.Drawing.Size(184, 21);
-            this.empLastNameTextBox.TabIndex = 7;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(19, 81);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(86, 20);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "Last Name";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(19, 125);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(99, 20);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "Date of Birth";
-            // 
-            // empDOBPicker
-            // 
-            this.empDOBPicker.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.empDOBPicker.Location = new System.Drawing.Point(146, 125);
-            this.empDOBPicker.Name = "empDOBPicker";
-            this.empDOBPicker.Size = new System.Drawing.Size(187, 21);
-            this.empDOBPicker.TabIndex = 9;
-            this.empDOBPicker.Value = new System.DateTime(2024, 8, 10, 0, 0, 0, 0);
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(19, 175);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(63, 20);
-            this.label6.TabIndex = 10;
-            this.label6.Text = "Gender";
-            // 
-            // maleRadioButton
-            // 
-            this.maleRadioButton.AutoSize = true;
-            this.maleRadioButton.Location = new System.Drawing.Point(146, 176);
-            this.maleRadioButton.Name = "maleRadioButton";
-            this.maleRadioButton.Size = new System.Drawing.Size(53, 19);
-            this.maleRadioButton.TabIndex = 11;
-            this.maleRadioButton.TabStop = true;
-            this.maleRadioButton.Text = "Male";
-            this.maleRadioButton.UseVisualStyleBackColor = true;
-            // 
-            // femaleRadioButton
-            // 
-            this.femaleRadioButton.AutoSize = true;
-            this.femaleRadioButton.Location = new System.Drawing.Point(247, 176);
-            this.femaleRadioButton.Name = "femaleRadioButton";
-            this.femaleRadioButton.Size = new System.Drawing.Size(67, 19);
-            this.femaleRadioButton.TabIndex = 12;
-            this.femaleRadioButton.TabStop = true;
-            this.femaleRadioButton.Text = "Female";
-            this.femaleRadioButton.UseVisualStyleBackColor = true;
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(19, 37);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(42, 20);
+            this.label14.TabIndex = 4;
+            this.label14.Text = "Role";
             // 
             // groupBox2
             // 
@@ -275,6 +161,20 @@
             this.groupBox2.TabIndex = 13;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Contact Details";
+            // 
+            // homePhoneTextBox
+            // 
+            this.homePhoneTextBox.Location = new System.Drawing.Point(146, 174);
+            this.homePhoneTextBox.Name = "homePhoneTextBox";
+            this.homePhoneTextBox.Size = new System.Drawing.Size(184, 21);
+            this.homePhoneTextBox.TabIndex = 14;
+            // 
+            // mobilePhoneTextBox
+            // 
+            this.mobilePhoneTextBox.Location = new System.Drawing.Point(146, 125);
+            this.mobilePhoneTextBox.Name = "mobilePhoneTextBox";
+            this.mobilePhoneTextBox.Size = new System.Drawing.Size(184, 21);
+            this.mobilePhoneTextBox.TabIndex = 13;
             // 
             // label7
             // 
@@ -330,54 +230,6 @@
             this.label10.TabIndex = 4;
             this.label10.Text = "Address";
             // 
-            // mobilePhoneTextBox
-            // 
-            this.mobilePhoneTextBox.Location = new System.Drawing.Point(146, 125);
-            this.mobilePhoneTextBox.Name = "mobilePhoneTextBox";
-            this.mobilePhoneTextBox.Size = new System.Drawing.Size(184, 21);
-            this.mobilePhoneTextBox.TabIndex = 13;
-            // 
-            // homePhoneTextBox
-            // 
-            this.homePhoneTextBox.Location = new System.Drawing.Point(146, 174);
-            this.homePhoneTextBox.Name = "homePhoneTextBox";
-            this.homePhoneTextBox.Size = new System.Drawing.Size(184, 21);
-            this.homePhoneTextBox.TabIndex = 14;
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.comboBox1);
-            this.groupBox3.Controls.Add(this.label14);
-            this.groupBox3.Location = new System.Drawing.Point(21, 537);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(352, 76);
-            this.groupBox3.TabIndex = 15;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Professional Details";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(19, 37);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(42, 20);
-            this.label14.TabIndex = 4;
-            this.label14.Text = "Role";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Supervisor",
-            "Cashier ",
-            "Chef",
-            "Other"});
-            this.comboBox1.Location = new System.Drawing.Point(152, 34);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(181, 23);
-            this.comboBox1.TabIndex = 15;
-            // 
             // deleteButton
             // 
             this.deleteButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -387,6 +239,152 @@
             this.deleteButton.TabIndex = 6;
             this.deleteButton.Text = "Delete";
             this.deleteButton.UseVisualStyleBackColor = true;
+            this.deleteButton.Click += new System.EventHandler(this.deleteButton_Click);
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.femaleRadioButton);
+            this.groupBox1.Controls.Add(this.maleRadioButton);
+            this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.empDOBPicker);
+            this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Controls.Add(this.empLastNameTextBox);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.empfirstNameTextBox);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Location = new System.Drawing.Point(21, 70);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(352, 217);
+            this.groupBox1.TabIndex = 3;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Basic Details";
+            // 
+            // femaleRadioButton
+            // 
+            this.femaleRadioButton.AutoSize = true;
+            this.femaleRadioButton.Location = new System.Drawing.Point(247, 176);
+            this.femaleRadioButton.Name = "femaleRadioButton";
+            this.femaleRadioButton.Size = new System.Drawing.Size(67, 19);
+            this.femaleRadioButton.TabIndex = 12;
+            this.femaleRadioButton.TabStop = true;
+            this.femaleRadioButton.Tag = "gender";
+            this.femaleRadioButton.Text = "Female";
+            this.femaleRadioButton.UseVisualStyleBackColor = true;
+            // 
+            // maleRadioButton
+            // 
+            this.maleRadioButton.AutoSize = true;
+            this.maleRadioButton.Location = new System.Drawing.Point(146, 176);
+            this.maleRadioButton.Name = "maleRadioButton";
+            this.maleRadioButton.Size = new System.Drawing.Size(53, 19);
+            this.maleRadioButton.TabIndex = 11;
+            this.maleRadioButton.TabStop = true;
+            this.maleRadioButton.Tag = "gender";
+            this.maleRadioButton.Text = "Male";
+            this.maleRadioButton.UseVisualStyleBackColor = true;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(19, 175);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(63, 20);
+            this.label6.TabIndex = 10;
+            this.label6.Text = "Gender";
+            // 
+            // empDOBPicker
+            // 
+            this.empDOBPicker.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.empDOBPicker.Location = new System.Drawing.Point(146, 125);
+            this.empDOBPicker.Name = "empDOBPicker";
+            this.empDOBPicker.Size = new System.Drawing.Size(187, 21);
+            this.empDOBPicker.TabIndex = 9;
+            this.empDOBPicker.Value = new System.DateTime(2024, 8, 10, 0, 0, 0, 0);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(19, 125);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(99, 20);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "Date of Birth";
+            // 
+            // empLastNameTextBox
+            // 
+            this.empLastNameTextBox.Location = new System.Drawing.Point(149, 80);
+            this.empLastNameTextBox.Name = "empLastNameTextBox";
+            this.empLastNameTextBox.Size = new System.Drawing.Size(184, 21);
+            this.empLastNameTextBox.TabIndex = 7;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(19, 81);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(86, 20);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "Last Name";
+            // 
+            // empfirstNameTextBox
+            // 
+            this.empfirstNameTextBox.Location = new System.Drawing.Point(152, 36);
+            this.empfirstNameTextBox.Name = "empfirstNameTextBox";
+            this.empfirstNameTextBox.Size = new System.Drawing.Size(184, 21);
+            this.empfirstNameTextBox.TabIndex = 5;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(19, 37);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(86, 20);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "First Name";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // updatebutton
+            // 
+            this.updatebutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.updatebutton.Location = new System.Drawing.Point(132, 646);
+            this.updatebutton.Name = "updatebutton";
+            this.updatebutton.Size = new System.Drawing.Size(116, 29);
+            this.updatebutton.TabIndex = 5;
+            this.updatebutton.Text = "Update";
+            this.updatebutton.UseVisualStyleBackColor = true;
+            this.updatebutton.Click += new System.EventHandler(this.updatebutton_Click);
+            // 
+            // empNotextBox
+            // 
+            this.empNotextBox.Location = new System.Drawing.Point(173, 31);
+            this.empNotextBox.Name = "empNotextBox";
+            this.empNotextBox.Size = new System.Drawing.Size(184, 21);
+            this.empNotextBox.TabIndex = 2;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(43, 32);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(103, 20);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Employee No";
+            // 
+            // insertButton
+            // 
+            this.insertButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.insertButton.Location = new System.Drawing.Point(10, 646);
+            this.insertButton.Name = "insertButton";
+            this.insertButton.Size = new System.Drawing.Size(116, 29);
+            this.insertButton.TabIndex = 4;
+            this.insertButton.Text = "Insert";
+            this.insertButton.UseVisualStyleBackColor = true;
+            this.insertButton.Click += new System.EventHandler(this.insertButton_Click);
             // 
             // resetButton
             // 
@@ -397,6 +395,7 @@
             this.resetButton.TabIndex = 7;
             this.resetButton.Text = "Reset";
             this.resetButton.UseVisualStyleBackColor = true;
+            this.resetButton.Click += new System.EventHandler(this.resetButton_Click);
             // 
             // exitButton
             // 
@@ -407,6 +406,18 @@
             this.exitButton.TabIndex = 8;
             this.exitButton.Text = "Exit";
             this.exitButton.UseVisualStyleBackColor = true;
+            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(569, 53);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(77, 76);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // Employee
             // 
@@ -422,16 +433,17 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "Employee";
             this.Text = "Employee";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.Load += new System.EventHandler(this.Employee_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.EmployeeGroupBox.ResumeLayout(false);
             this.EmployeeGroupBox.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -472,5 +484,6 @@
         private System.Windows.Forms.Button deleteButton;
         private System.Windows.Forms.Button resetButton;
         private System.Windows.Forms.Button exitButton;
+
     }
 }

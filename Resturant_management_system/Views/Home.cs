@@ -19,14 +19,24 @@ namespace Resturant_management_system.Views
 
         private void button2_Click(object sender, EventArgs e)
         {
+
+            this.Hide();
+
             Employee employee = new Employee();
+            employee.FormClosed += (s, args) => this.Show();
             employee.Show();
+            
         }
 
         private void logoutButton_Click(object sender, EventArgs e)
         {
-            Login login = new Login();
-            login.Visible = true;
+            Employee employee = new Employee();
+            employee.Close();
+
+            Menu menu = new Menu();
+            menu.Close();
+
+
             this.Close();
         }
 
