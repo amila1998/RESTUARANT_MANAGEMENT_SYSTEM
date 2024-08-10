@@ -96,5 +96,27 @@ namespace Resturant_management_system.Views
             totaltext.Text = total.ToString();
 
         }
+
+        private void insertButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Payment Successfull !", "Payment Successfull", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            Cutlets_40_LKR.Value = 0;
+            EggBun_120_LKR.Value = 0;
+            IceCream_150_LKR.Value = 0;
+            CupCake_150_LKR.Value = 0;
+            VegeKottu_500_LKR.Value = 0;
+            EggKottu_500_LKR.Value = 0;
+            Seafood_800_LKR.Value = 0;
+            EggRice_800_LKR.Value = 0;
+            IceCoffee_150_LKR.Value = 0;
+            CocaCola_150_LKR.Value = 0;
+            Lime_100_LKR.Value = 0;
+            Orange_100_LKR.Value = 0;
+
+            totaltext.Text = "0";
+            radioButton1.Checked = false;
+            radioButton2.Checked = false;
+        }
     }
 }

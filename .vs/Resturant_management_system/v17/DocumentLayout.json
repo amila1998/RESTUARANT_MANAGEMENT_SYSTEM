@@ -11,6 +11,14 @@
       "RelativeMoniker": "D:0:0:{AFA7B06E-4969-415F-8487-B80957A26DB9}|Resturant_management_system\\Resturant_management_system.csproj|solutionrelative:resturant_management_system\\views\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{AFA7B06E-4969-415F-8487-B80957A26DB9}|Resturant_management_system\\Resturant_management_system.csproj|d:\\bimalka\\restuarant_management_system\\resturant_management_system\\views\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFA7B06E-4969-415F-8487-B80957A26DB9}|Resturant_management_system\\Resturant_management_system.csproj|solutionrelative:resturant_management_system\\views\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFA7B06E-4969-415F-8487-B80957A26DB9}|Resturant_management_system\\Resturant_management_system.csproj|d:\\bimalka\\restuarant_management_system\\resturant_management_system\\views\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AFA7B06E-4969-415F-8487-B80957A26DB9}|Resturant_management_system\\Resturant_management_system.csproj|solutionrelative:resturant_management_system\\views\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AFA7B06E-4969-415F-8487-B80957A26DB9}|Resturant_management_system\\Resturant_management_system.csproj|d:\\bimalka\\restuarant_management_system\\resturant_management_system\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{AFA7B06E-4969-415F-8487-B80957A26DB9}|Resturant_management_system\\Resturant_management_system.csproj|solutionrelative:resturant_management_system\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
@@ -22,11 +30,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\Bimalka\\RESTUARANT_MANAGEMENT_SYSTEM\\Resturant_management_system\\Views\\Login.cs",
+              "RelativeDocumentMoniker": "Resturant_management_system\\Views\\Login.cs",
+              "ToolTip": "D:\\Bimalka\\RESTUARANT_MANAGEMENT_SYSTEM\\Resturant_management_system\\Views\\Login.cs",
+              "RelativeToolTip": "Resturant_management_system\\Views\\Login.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAqwFQAAACFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T09:38:36.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "D:\\Bimalka\\RESTUARANT_MANAGEMENT_SYSTEM\\Resturant_management_system\\Views\\Login.cs",
+              "RelativeDocumentMoniker": "Resturant_management_system\\Views\\Login.cs",
+              "ToolTip": "D:\\Bimalka\\RESTUARANT_MANAGEMENT_SYSTEM\\Resturant_management_system\\Views\\Login.cs [Design]",
+              "RelativeToolTip": "Resturant_management_system\\Views\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T09:38:34.643Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "App.config",
               "DocumentMoniker": "D:\\Bimalka\\RESTUARANT_MANAGEMENT_SYSTEM\\Resturant_management_system\\App.config",
               "RelativeDocumentMoniker": "Resturant_management_system\\App.config",
@@ -45,7 +78,7 @@
               "RelativeDocumentMoniker": "Resturant_management_system\\Views\\Menu.cs",
               "ToolTip": "D:\\Bimalka\\RESTUARANT_MANAGEMENT_SYSTEM\\Resturant_management_system\\Views\\Menu.cs*",
               "RelativeToolTip": "Resturant_management_system\\Views\\Menu.cs*",
-              "ViewState": "AQIAAEQAAAAAAAAAAAAUwDkAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-10T08:13:39.18Z",
               "EditorCaption": ""

@@ -575,6 +575,7 @@
             this.insertButton.TabIndex = 9;
             this.insertButton.Text = "Insert";
             this.insertButton.UseVisualStyleBackColor = true;
+            this.insertButton.Click += new System.EventHandler(this.insertButton_Click);
             // 
             // resetButton
             // 
